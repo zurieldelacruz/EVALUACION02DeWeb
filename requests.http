@@ -1,18 +1,18 @@
-#GET http://localhost:8080/saludo
+##GET http://localhost:8080/saludo
 
-GET https://idat-saluda.onrender.com/saludo
+GET https://idatec02-saluda.onrender.com/saludo
 
-
-###
-GET https://idat-saluda.onrender.com/saludo?name=Zuriel
 
 ###
-
-GET https://idat-saluda.onrender.com/demo/all
+GET https://idatec02-saluda.onrender.com/saludo?name=Zuriel
 
 ###
 
-POST https://idat-saluda.onrender.com/demo/add
+GET https://idatec02-saluda.onrender.com/demo/all
+
+###
+
+POST https://idatec02-saluda.onrender.com/demo/add
 Content-Type: application/x-www-form-urlencoded
 
 name=Zuriel&email=zuriel6@idat.edu.pe
