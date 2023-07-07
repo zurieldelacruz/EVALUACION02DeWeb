@@ -1,1 +1,6 @@
 http://localhost:8080/saludo
+
+
+POST https://rest-localhost:8080/saludo-practica.onrender.com/demo/add
+Content-Type: applicacion/application/x-www-form-urlencoded
+name=Zuriel&email=sm47729576@idat.edu.pe
