@@ -1,6 +1,18 @@
-http://localhost:8080/saludo
+#GET http://localhost:8080/saludo
+
+GET https://idat-saluda.onrender.com/saludo
 
 
-POST https://rest-localhost:8080/saludo-practica.onrender.com/demo/add
-Content-Type: applicacion/application/x-www-form-urlencoded
-name=Zuriel&email=sm47729576@idat.edu.pe
+###
+GET https://idat-saluda.onrender.com/saludo?name=Zuriel
+
+###
+
+GET https://idat-saluda.onrender.com/demo/all
+
+###
+
+POST https://idat-saluda.onrender.com/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Zuriel&email=zuriel6@idat.edu.pe
